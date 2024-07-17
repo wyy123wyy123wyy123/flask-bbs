@@ -5,12 +5,17 @@ from models import User, Question, Answer
 from exts import db
 from decorators import login_required
 import sqlalchemy
+from blueprints.cms import bp as cms_bp
+from blueprints.front import bp as front_bp
+from blueprints.user import bp as user_bp
 
 app = Flask(__name__)
 app.config.from_object(config)
 db.init_app(app)
 
-
+app.register_blueprint(cms_bp)
+app.register_blueprint(front_bp)
+app.register_blueprint(user_bp)
 
 @app.route('/')
 def index():
