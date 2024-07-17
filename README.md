@@ -1,4 +1,4 @@
-# 小型问答平台
+# 小型问答平台（Alpha）
 
 ## 简介
 
@@ -8,7 +8,7 @@
 ## 使用方法
 * 克隆项目到本地
 ```
-git clone https://github.com/rickyyangrui/Flask_web_demo1
+git clone https://github.com/wyy123wyy123wyy123/flask-bbs.git
 ```
 
 * 先创建一个虚拟环境，避免污染整个Python的环境。
@@ -59,17 +59,6 @@ python manage.py runserver
 ```
 * 最后，打开http://127.0.0.1:5000, 成功啦。
 
-## 网站的截图
-***登录的界面***
-![Login](https://github.com/rickyyangrui/Flask_web_demo1/blob/master/screenshoots/Login.png)
-***注册的界面***
-![注册](https://github.com/rickyyangrui/Flask_web_demo1/blob/master/screenshoots/%E6%B3%A8%E5%86%8C.png)
-***首页***
-![首页](https://github.com/rickyyangrui/Flask_web_demo1/blob/master/screenshoots/%E9%A6%96%E9%A1%B5.png)
-***发布问答***
-![发布问答](https://github.com/rickyyangrui/Flask_web_demo1/blob/master/screenshoots/%E5%8F%91%E5%B8%83%E9%97%AE%E7%AD%94.png)
-***评论***
-![首页](https://github.com/rickyyangrui/Flask_web_demo1/blob/master/screenshoots/%E8%AF%84%E8%AE%BA.png)
 
 ## 思路分析
 要做一个复杂的站点的时候，往往我们不知道如何入手，通常我们可以分解下，先做一个大概的模型，结构，分析一下我们要做的网页的结构都有什么？比如简书，知乎，微博等等，先做大体的结构，至于具体的功能可以慢慢的添加。
